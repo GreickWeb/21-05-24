@@ -6,6 +6,7 @@ html, body{
 	background-color: black;
 }
 .container{
+	position: fixed;
     width: 100%;
     height: 5rem;
     background-color: #000;
@@ -109,27 +110,74 @@ nav{
     box-shadow: 2px 1px 6px #ffffff;
 }
 section{
+	margin-top:10%;
 	width: 100%;
 	height: 90%;
 	position: absolute;
 }
 section .esq1{
-	width: 50%;
+	margin-left: 20%;
+	width: 48%;
 	height: 90%;
 }
 section .esq1 h4{
 	color: #0073ff;
+	margin-left: 3rem;
+	line-height: 0.9;
+	margin-bottom: 2rem;
 }
+section .esq1 p{
+	color: #ffffff;
+	margin-left: 3rem;
+	margin-bottom: 2rem;
+}
+
 .title{
 	font-family: 'Montserrat';
 	font-size: 4rem;
+	color: #0073ff;
 }
+
 .subtitle{
 	color: #fff;
 	font-size: 1rem;
 	font-family: 'Geologica';
 }
-sec .sec img{
-	width: 4rem;
+.sec img{
+	width: 50%;
+	margin-left: 10rem
 	
 }
+section .dir1 h4{
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+section .dir1 p{
+	text-justify: center;
+	margin-left: 20%;
+}
+.dir1{
+	margin-top: 20%;
+	left: 20%;
+	width: 48%;
+	height: 90%;
+	position: relative;
+}
+.sec2{
+	margin-left: 20%;
+	top:200%;
+	width: 50%;
+	height: 90%;
+	position: absolute;
+}
+.sec2  h4{
+font-size: 2rem;
+margin-bottom: 2rem;
+
+
+}
+.sec2  p{
+	font-size: 1rem;
+	
+	
+	}
