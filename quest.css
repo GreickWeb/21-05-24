@@ -6,11 +6,11 @@ html, body{
 	background-color: black;
 }
 .container{
-	position: fixed;
     width: 100%;
     height: 5rem;
     background-color: #000;
 	box-shadow: 1px 1px 8px #03316B;
+	position: absolute;
 }
 .container .logtop{
 	position: relative;
@@ -24,7 +24,7 @@ html, body{
 
 .menu{
 	background-color: #13131300;
-	position: fixed;
+	position: absolute;
 	overflow: hidden;
 	height: 10vh;
 	top: 0;
@@ -84,8 +84,9 @@ transition: 1s;
 	text-transform: capitalize;
 }
 .menu li:hover a, nav.menu li.active > a{
-	color: #fff;
+	color: #0073ff;
 	background-color: #00000000;
+	text-shadow: 1px 1px 10px #ffffff;
 }
 nav{
 	-webkit-user-select: none;
@@ -103,81 +104,93 @@ nav{
 
 .menu:hover, nav.menu.expanded{
 	width: 15rem;
-    height: 23rem;
+    height: 25rem;
 	overflow: hidden;
     background-color: #000;
     border-radius: 1rem;
     box-shadow: 2px 1px 6px #ffffff;
 }
-section{
-	margin-top:10%;
-	width: 100%;
+.conteudo{
+	width: 50%;
 	height: 90%;
 	position: absolute;
+	top: 15%;
+	margin-left: 25%;
+	margin-right: 20%;
 }
-section .esq1{
-	margin-left: 20%;
-	width: 48%;
-	height: 90%;
+.conteudo .esq1{
+	position: relative;
+
 }
-section .esq1 h4{
-	color: #0073ff;
-	margin-left: 3rem;
-	line-height: 0.9;
-	margin-bottom: 2rem;
+.conteudo .esq1 p{
+	position: relative;
+	width:70% ;
+	margin-left: 10%;
+	text-align: center;
+
+
 }
-section .esq1 p{
-	color: #ffffff;
-	margin-left: 3rem;
-	margin-bottom: 2rem;
+.conteudo .dir1{
+	position: static;
+	padding-bottom: 10%;
+}
+.conteudo .dir1 .subtitle{
+	position: relative;
+	width:70% ;
+	text-align: center;
+	margin-left: 10%
 }
 
 .title{
 	font-family: 'Montserrat';
-	font-size: 4rem;
+	font-size: 3rem;
 	color: #0073ff;
-}
+	padding-bottom: 2%;
 
+}
 .subtitle{
 	color: #fff;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-family: 'Geologica';
+	text-shadow: #0073ff;
+	border-left: 2px solid red;
 }
-.sec img{
-	width: 50%;
-	margin-left: 10rem
+.conteudo img{
+	width: 18rem;
+	padding:5% 0% 5% 0% ;
+	margin-left: 26%;
 	
 }
-section .dir1 h4{
-	font-size: 3rem;
-	margin-bottom: 2rem;
+.conteudo .c3{
+	position: static;
+	padding-bottom: 10%;
 }
-section .dir1 p{
-	text-justify: center;
-	margin-left: 20%;
+.conteudo .c4{
+	position: static;
+	padding-bottom: 10%;
 }
-.dir1{
-	margin-top: 20%;
-	left: 20%;
-	width: 48%;
-	height: 90%;
-	position: relative;
+.conteudo .c5{
+	position: static;
+	padding-bottom: 10%;
 }
-.sec2{
-	margin-left: 20%;
-	top:200%;
-	width: 50%;
-	height: 90%;
-	position: absolute;
+.conteudo .c6{
+	position: static;
+	padding-bottom: 10%;
 }
-.sec2  h4{
-font-size: 2rem;
-margin-bottom: 2rem;
+.conteudo .c7{
+	position: static;
+	padding-bottom: 10%;
+}
+.conteudo .c8{
+	position: static;
+	padding-bottom: 10%;
+}
+.conteudo .c9{
+	position: static;
+	padding-bottom: 10%;
+}
+.conteudo .c10{
+	position: static;
+	padding-bottom: 10%;
+}
 
-
-}
-.sec2  p{
-	font-size: 1rem;
-	
-	
-	}
